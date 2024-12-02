@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Materi PKN</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ffe6f2;
+      margin: 0;
+      padding: 0;
+      line-height: 1.8;
+      overflow-x: hidden;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 30px auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transform: translateY(50px);
+      opacity: 0;
+      animation: fadeInUp 1s ease-out forwards;
+    }
+
+    @keyframes fadeInUp {
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    .header {
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      color: #ff6699;
+      opacity: 0;
+      animation: fadeIn 1s ease-out forwards 0.5s;
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+
+    .content {
+      text-align: justify;
+      font-size: 16px;
+      color: #333;
+      opacity: 0;
+      animation: fadeIn 1s ease-out forwards 0.8s;
+    }
+
+    .button-container {
+      text-align: center;
+      margin-top: 30px;
+      opacity: 0;
+      animation: fadeIn 1s ease-out forwards 1.1s;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      color: #fff;
+      background-color: #ff80b3;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    .button:hover {
+      background-color: #ff6699;
+      transform: translateY(-3px);
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 15px;
+      }
+
+      .header {
+        font-size: 20px;
+      }
+
+      .button {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">Materi Pendidikan Kewarganegaraan</div>
+    <div class="content">
+      <p>
+        Pendidikan Kewarganegaraan (PKN) adalah salah satu mata pelajaran yang bertujuan membangun kesadaran serta tanggung jawab warga negara terhadap bangsa dan negara. Materi ini mengajarkan pentingnya memahami hak dan kewajiban sebagai warga negara, serta membentuk karakter individu yang berintegritas.
+      </p>
+      <p>
+        Salah satu fokus utama PKN adalah Pancasila, yang menjadi dasar negara Indonesia. Nilai-nilai Pancasila, seperti ketuhanan, kemanusiaan, persatuan, demokrasi, dan keadilan sosial, harus diwujudkan dalam kehidupan sehari-hari. Hal ini mencerminkan identitas bangsa Indonesia yang plural tetapi tetap bersatu.
+      </p>
+      <p>
+        Selain itu, pembelajaran PKN mencakup pemahaman terhadap Undang-Undang Dasar 1945, hak asasi manusia, demokrasi, dan keberagaman budaya. Melalui materi ini, siswa diajarkan untuk memahami pentingnya menjunjung tinggi hukum, menghormati hak orang lain, dan menjaga kerukunan dalam keberagaman.
+      </p>
+      <p>
+        Pendidikan Kewarganegaraan juga bertujuan membentuk generasi muda yang cinta tanah air. Melalui sejarah perjuangan bangsa, siswa diajak untuk menghargai pengorbanan para pahlawan dan belajar dari nilai-nilai kebangsaan. Semangat gotong royong, kerja sama, dan toleransi menjadi fondasi yang harus terus dijaga.
+      </p>
+      <p>
+        Dalam era globalisasi ini, PKN juga berperan dalam mengedukasi masyarakat tentang tantangan baru seperti penyalahgunaan teknologi, radikalisme, dan disintegrasi sosial. Dengan pemahaman yang baik, masyarakat dapat berkontribusi secara aktif dalam menjaga keutuhan Negara Kesatuan Republik Indonesia (NKRI).
+      </p>
+    </div>
+    <div class="button-container">
+      <a href="#" class="button">Pelajari Lebih Lanjut</a>
+    </div>
+  </div>
+</body>
+</html>
